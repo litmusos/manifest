@@ -1,14 +1,25 @@
-# Pixel Experience #
+<p align="center">
+
+<img src="https://github.com/litmusos/manifest/blob/thirteen/Litmus.png">
+
+</p>
+
+# Litmus OS #
 
 ### Sync ###
 
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b thirteen-plus
+repo init -u https://github.com/litmusos/manifest -b thirteen
+
+```
+
+```bash
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+
 ```
 
 ### Build ###
@@ -24,9 +35,3 @@ $ lunch aosp_$device-userdebug
 # Build the code
 $ mka bacon -jX
 ```
-
-### Submitting Patches ###
-
-Patches are always welcome! Please submit your patches to our Gerrit.
-
-[Gerrit push guide](https://wiki.pixelexperience.org/help/submit-patch/)
