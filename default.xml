@@ -11,7 +11,7 @@
   <remote name="gitlab"
           fetch="https://gitlab.com" />
 
-  <default revision="refs/tags/android-13.0.0_r30"
+  <default revision="refs/tags/android-13.0.0_r43"
            remote="aosp"
            sync-j="4"
            sync-c="true"
